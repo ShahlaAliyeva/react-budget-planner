@@ -58,7 +58,7 @@ function App() {
       if (
         !element.firstElementChild.textContent
           .toLowerCase()
-          .includes(searchVal)
+          .includes(searchVal.toLowerCase())
       ) {
         element.classList.add("hide");
       } else {
